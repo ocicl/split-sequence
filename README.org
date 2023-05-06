@@ -1,0 +1,9 @@
+* split-sequence
+
+Splits sequence into a list of subsequences delimited by objects satisfying a test.
+
+|---------+-------------------------------------------------------------------------------------|
+| source  | file:https://github.com/sharplispers/split-sequence/archive/refs/tags/v2.0.1.tar.gz |
+| version | 2.0.1                                                                               |
+| systems | split-sequence                                                                      |
+|---------+-------------------------------------------------------------------------------------|
