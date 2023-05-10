@@ -3,11 +3,12 @@ on: [push]
 jobs:
   ocicl_job:
     permissions:
-      contents: read
       packages: write
-      id-token: write
     runs-on: ubuntu-latest
     name: Test and publish package
     steps:
-      - id: test-and-publish
+      - id: build-and-publish
         uses: ocicl/ocicl-action@main
+        with:
+          gpg_signing_key: ${{ secrets.GPG_SIGNING_KEY }}
+          gpg_public_key: ${{ secrets.GPG_PUBLIC_KEY }}
