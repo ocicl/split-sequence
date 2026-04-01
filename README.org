@@ -7,3 +7,4 @@ Splits sequence into a list of subsequences delimited by objects satisfying a te
 | version | 2.0.1                                                                               |
 | systems | split-sequence                                                                      |
 |---------+-------------------------------------------------------------------------------------|
+ 
